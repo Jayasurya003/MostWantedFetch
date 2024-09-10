@@ -1,0 +1,13 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"  # Regular dependencies for your project
+
+[dev-packages]
+pytest = "*"  # Only in dev packages since it's for testing
+
+[requires]
+python_version = "3.12"  # Specifying the Python version
